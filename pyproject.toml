@@ -16,4 +16,4 @@ classifiers = [
 ]
 
 [tool.hatch.version]
-# Automatically set the library version
+path = "src/gqrx_client/__version__.py"
