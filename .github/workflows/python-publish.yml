@@ -56,8 +56,11 @@ jobs:
       run: echo "__version__ = '${{ github.event.release.tag_name }}'" >> src/gqrx_client/__version__.py
     - name: Build the documentation
       run: python -m sphinx build docs _site
-    - name: Publish the documentation
-      uses: actions/upload-pages-artifact@v1
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
       with:
         name: "github-pages"
         path: "_site/"
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
