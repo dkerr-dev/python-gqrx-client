@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gqrx-client"
+version = "0.0.1"
+authors = [
+  { name="Daniel Kerr", email="dkerr.contact@gmail.com" },
+]
+description = "A Gqrx Client Library"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
