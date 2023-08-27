@@ -2,3 +2,7 @@ __pycache__
 *.pyc
 
 /.venv
+
+/docs/_build
+/docs/_static
+/docs/_templates
