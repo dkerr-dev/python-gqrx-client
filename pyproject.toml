@@ -15,5 +15,10 @@ classifiers = [
     "Programming Language :: Python :: 3",
 ]
 
+[project.urls]
+"Homepage" = "https://github.com/dkerr-dev/python-gqrx-client/"
+"Source" = "https://github.com/dkerr-dev/python-gqrx-client/"
+"Documentation" = "https://dkerr-dev.github.io/python-gqrx-client/"
+
 [tool.hatch.version]
 path = "src/gqrx_client/__version__.py"

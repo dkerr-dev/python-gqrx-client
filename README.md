@@ -29,4 +29,4 @@ client.recording = True
 
 # Documentation
 
-[View the documentation here](./docs/_build/html/index.html).
+[View the latest generated documentation here](https://dkerr-dev.github.io/python-gqrx-client/).
