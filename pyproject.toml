@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "gqrx-client"
-version = "0.0.1"
+dynamic = ["version"]
 authors = [
   { name="Daniel Kerr", email="dkerr.contact@gmail.com" },
 ]
@@ -14,3 +14,6 @@ requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
 ]
+
+[tool.hatch.version]
+# Automatically set the library version
